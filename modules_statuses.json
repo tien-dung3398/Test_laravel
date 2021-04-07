@@ -1,0 +1,8 @@
+{
+    "Category": true,
+    "Attribute": true,
+    "Image": true,
+    "User": true,
+    "Asset": true,
+    "Barcode": true
+}

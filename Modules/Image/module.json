@@ -1,0 +1,13 @@
+{
+    "name": "Image",
+    "alias": "image",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Image\\Providers\\ImageServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
