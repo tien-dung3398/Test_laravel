@@ -2,11 +2,22 @@
 
 namespace Modules\User\Entities;
 
-use Tymon\JWTAuth\Contracts\JWTSubject;
-use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable implements JWTSubject
+/**
+ * Class User
+ * @package App
+ * @property int $id
+ * @property string $name
+ * @property string $email
+ * @property string $password
+ * @property string $api_token
+ * @property $expires_token
+ * @property $created_at
+ * @property $updated_at
+ */
+class User extends Authenticatable
 {
     use Notifiable;
 
@@ -16,7 +27,14 @@ class User extends Authenticatable implements JWTSubject
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'api_token'
+        'name', 'email', 'password', 'api_token', 'expires_token'
+    ];
+
+    /**
+     * @var string[]
+     */
+    protected $dates = [
+        'created_at', 'updated_at', 'expires_token'
     ];
 
     /**
@@ -25,7 +43,7 @@ class User extends Authenticatable implements JWTSubject
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token', 'api_token'
+        'password', 'remember_token',
     ];
 
     /**
@@ -36,27 +54,4 @@ class User extends Authenticatable implements JWTSubject
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-
-
-    // Rest omitted for brevity
-
-    /**
-     * Get the identifier that will be stored in the subject claim of the JWT.
-     *
-     * @return mixed
-     */
-    public function getJWTIdentifier()
-    {
-        return $this->getKey();
-    }
-
-    /**
-     * Return a key value array, containing any custom claims to be added to the JWT.
-     *
-     * @return array
-     */
-    public function getJWTCustomClaims()
-    {
-        return [];
-    }
 }

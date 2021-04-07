@@ -13,10 +13,11 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::post('auth/register', 'UserController@register');
-Route::post('auth/login', 'UserController@login');
-Route::group(['middleware' => 'jwt.auth'], function () {
-    Route::get('user-info', 'UserController@getUserInfo');
+
+//Route::group(['middleware' => ['auth:api']], function () {
+Route::group(['prefix' => 'auth'], function () {
+    Route::get('register', 'UserController@register');
 });
+//});
 
 

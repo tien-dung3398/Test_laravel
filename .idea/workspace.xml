@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f994f13-2c64-4272-ae4c-f827bdc9f57f" name="Default Changelist" comment="" />
+    <list default="true" id="3f994f13-2c64-4272-ae4c-f827bdc9f57f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/chotot_laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chotot_laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/Database/Migrations/2021_03_22_002109_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/Database/Seeders/UserDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/Database/Seeders/UserDatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/Entities/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/Entities/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/Http/Controllers/Api/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/Http/Controllers/Api/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/Providers/UserServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/Providers/UserServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/Resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/Resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/Resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/Resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/Routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/Routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/Routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/module.json" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/module.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +31,9 @@
   <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -138,6 +162,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
     </include_path>
   </component>
   <component name="ProjectId" id="1psbLZfgjygoB6mRIyoyETxN7Hu" />
@@ -191,6 +216,12 @@
       <workItem from="1617634344093" duration="669000" />
       <workItem from="1617711397672" duration="214000" />
       <workItem from="1617781038526" duration="279000" />
+      <workItem from="1617819967836" duration="39000" />
+      <workItem from="1617820011919" duration="447000" />
+      <workItem from="1617823275552" duration="143000" />
+      <workItem from="1617823492602" duration="22000" />
+      <workItem from="1617823528235" duration="214000" />
+      <workItem from="1617823934661" duration="1557000" />
     </task>
     <servers />
   </component>
